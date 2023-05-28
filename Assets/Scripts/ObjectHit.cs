@@ -22,9 +22,9 @@ public class ObjectHit : MonoBehaviour
     }
     private void OnCollisionExit(Collision other)
     {
-        if (other.transform.tag == "Player")
+        /*if (other.transform.tag == "Player")
         {
             GetComponent<MeshRenderer>().material.color = baseColor;
-        }
+        }*/
     }
 }
